@@ -1,0 +1,10 @@
+ollama
+pillow
+requests
+rembg
+fastapi
+onnxruntime
+python-multipart
+uvicorn
+transformers
+torch

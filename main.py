@@ -6,8 +6,8 @@ from fastapi import FastAPI, Query, HTTPException
 from fastapi import UploadFile, File
 from fastapi.responses import StreamingResponse
 
-from remove_background import remove_background_sync
-from wb_parser import wb_parser
+from project.remove_background import remove_background_sync
+from project.wb_parser import wb_parser
 
 app = FastAPI()
 
